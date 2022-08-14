@@ -16,6 +16,10 @@ main {
     background-color: antiquewhite;
 }
 
+#header-text-wrapper #call-to-action span{
+    color: blue;
+}
+
 #header-image img {
     width: 100%;
 }
@@ -85,7 +89,7 @@ p {
 a.btn {
     display: block;
     font-size: 1.2rem;
-    padding: 1.2rem 2rem;
+    padding: 1.2rem 1rem;
     text-align: center;
     margin: 1rem auto;
     /* border: 1px solid; */
@@ -159,6 +163,10 @@ a.btn {
 #second-section h1 {
     font-size: 2.5rem;
     /* margin: 3.5rem 0 2rem; */
+}
+
+#second-section {
+    padding: 1.2rem;
 }
 
 #second-section .feature {
