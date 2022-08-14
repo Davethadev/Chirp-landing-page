@@ -18,6 +18,7 @@ main {
 
 #header-text-wrapper #call-to-action span{
     color: blue;
+    font-weight: bold;
 }
 
 #header-image img {
