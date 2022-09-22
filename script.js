@@ -1,4 +1,6 @@
+const hamburgerMenu = document.getElementById('hamburger-menu')
 const topNav = document.querySelector('.top-nav')
-topNav.addEventListener('click', function() {
-    this.classList.toggle('active')
+
+hamburgerMenu.addEventListener('click', function() {
+    topNav.classList.toggle('active')
 })

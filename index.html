@@ -11,27 +11,28 @@
 <body>
     <main>
         <div id="header">
-            <div id="header-nav">
-                <h2 id="header-logo" class="logo"><em>Chirp.</em></h2>
-                <div class="top-nav">
+            <div class="header-nav-wrapper">
+                <div id="header-nav">
+                    <h2 id="header-logo" class="logo"><em>Chirp.</em></h2>
+                    <div class="desktop-nav-links">
+                        <a href="#">Home</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">FAQ</a>
+                        <a href="#" class="btn"><img src="./Assets/Twitter.svg" alt="">Sign in to Twitter</a>
+                    </div>
                     <a id="hamburger-menu">
                         <img src="./Assets/Hamburger Menu.svg" alt="">
                     </a>
-                    <div id="myLinks">
-                        <a href="#home">Home</a>
-                        <a href="#pricing">Pricing</a>
-                        <a href="#faq">FAQ</a>
-                    </div>
                 </div>
+                <!-- <div id="desktop-nav">
+                    <h2 id="header-logo"><em>Chirp.</em></h2> 
+                </div> -->
             </div>
-            <div id="desktop-nav">
-                <h2 id="header-logo"><em>Chirp.</em></h2>
-                <div class="desktop-nav-links">
-                    <a href="#">Home</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">FAQ</a>
-                    <a href="#" class="btn"><img src="./Assets/Twitter.svg" alt="">Sign in to Twitter</a>
-                </div>
+            <div class="top-nav">
+                <a href="#home">Home</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#faq">FAQ</a>
+                <a href="#" class="btn"><img src="./Assets/Twitter.svg" alt="">Sign in to Twitter</a>
             </div>
             <div id="header-image-text-wrapper">
                 <div id="header-image">
@@ -70,7 +71,9 @@
             <h1>Features that help you Tweet smarter.</h1>
             <div id="features">
                 <div class="feature">
-                    <img src="" alt="">
+                    <div class="feature-image">
+                        <img src="./Assets/chart-areaspline-variant.svg" alt="">
+                    </div>
                     <p><strong>Analytics</strong></p>
                     <p>
                         We constantly monitor your audience as it grows - so you can Tweet when your followers are most
@@ -78,7 +81,9 @@
                     </p>
                 </div>
                 <div class="feature">
-                    <img src="" alt="">
+                    <div class="feature-image">
+                        <img src="./Assets/emoticon-cool-outline.svg" alt="">
+                    </div>
                     <p><strong>Smart Analyzer</strong></p>
                     <p>
                         Chirp automatically recognizes your followers' most active times and automatically sends you
@@ -86,7 +91,9 @@
                     </p>
                 </div>
                 <div class="feature">
-                    <img src="" alt="">
+                    <div class="feature-image">
+                        <img src="./Assets/notebook-multiple.svg" alt="">
+                    </div>
                     <p><strong>Schedule Your Tweets</strong></p>
                     <p>
                         Quality tweets drive tons of engagement. With Chirp, you can write Tweets in advance and schedule them
@@ -94,8 +101,10 @@
                     </p>
                 </div>
                 <div class="feature">
-                    <img src="" alt="">
-                   <p><strong>Dark Mode</strong></p>
+                    <div class="feature-image">
+                        <img src="./Assets/white-balance-sunny.svg" alt="">
+                    </div>
+                    <p><strong>Dark Mode</strong></p>
                     <p>
                         Friendly on the eyes no matter what time you write your Tweets. All colors are chosen to make sure
                         your eyes are at ease at all times.
